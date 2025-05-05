@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+        <!-- 3- internal -->
+     <style>
+        p {
+            color: gold;
+            font-size: 35px;
+        }
+     </style>
+     <!-- 4- external-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <!-- 1- inline -->
+    <h1 style="color:blue;">Alterando titulo com inline</h1>
+    <h1 style="color:red;">outro titulo</h1>
+
+    <!-- 2- multiplas regras-->
+     <h1 style="color:purple; font-size: 50px; border-bottom:2px solid red ;"> Alterando fonte e cor do titulo</h1>
+
+     <!-- 3- internal -->
+      <p>fui estilizado pelo internal</p>
+      <p>outro ex</p>
+      <p>e mais ouro</p>
+       <!-- 4- external-->
+        <h4>fui mudado pelo external</h4>
+
+        <!-- 48 - sticky -->
+         <div class="sticky">
+          <span>eu sou grudento</span>
+         </div>
+
+    <!-- 5- ordem -->
+     <p style="color: red;">vermelho po conta do inlene</p>
+     <p>paragrafo roxo por conta do external estar embaixo do internal</p>
+
+     <!-- 6-multiplos arquivos de css -->
+      <ul>
+        <li>banana</li>
+        <li>abacaxi</li>
+        <li>uva</li>
+      </ul>
+    <!--8-classes -->
+    <p class="paragrafo">texto aleatorio</p>
+    <p class="paragrafo">texto aleatorio 2</p>
+    <p class="paragrafo">texto aleatorio 3</p>
+
+    <!-- 9- IDS -->
+    <h1 id="vip">Titulo com ID</h1>
+
+    <!-- 10- ordem das tags -->
+     <h5>Titulos aleatorios</h5>
+     <h5 class="tt">Titulos aleatorios</h5>
+     <h5 class="tt" id="tl">Titulos aleatorios</h5>
+
+     <!-- 11- nome das cores-->
+      <p class="color-name">qualquer texto em cores</p>
+
+      <!--12-cores com hex-->
+      <p class="hex">texto colorido com hex</p>
+      <p class="hex-2">outro com hex</p>
+
+      <!--13-hex simplificado-->
+      <p class="hexs">hex simplificado</p>
+      <p class="hexs-2">hex simplificado 2</p>
+
+      <!--14- cores com RGB-->
+      <p class="rgb">testando o rgb</p>
+      <p class="rgbm">misturando cores com rgb</p>
+
+      <!-- 15- rgba-->
+       <p class="rgba">testando o RGBA</p>
+
+       <!-- 16 - testando o HSL -->
+        <p class="hsl">fui estilizado com HSL</p>
+
+        <!-- 17 - background -->
+         <p class="bg">mudar o fundo e cor com css, mudei tmb a fonte kk</p>
+         <p class="bg-2">mudar o fundo e cor com css, mudei tmb a fonte kk</p>
+
+         <!-- 18 - opacity -->
+          <div class="opacity">
+            <p>fui opacitado</p>
+          </div>
+
+          <!-- 19 - teste proprio para ver se consigo deixar so o fundo com opacidade, acabou sendo a proxima aula-->
+           <div class="pp">
+            <p>deve ser moleza</p>
+           </div>
+
+           <!-- 20 - imagem de fundo -->
+            <h1 class="bg-image">titulo com imagem de fundo</h1>
+
+          <!-- 21 - centralizando imagens -->
+           <div class="img-nc"></div>
+           <div class="img-c"></div>
+
+           <!-- 22 - height and width -->
+            <div class="hw"></div>
+            <div class="hw-2"></div>
+
+            <!-- 23 - padding -->
+             <p class="sp">não tenho padding</p>
+             <p class="cp">ja eu tenho</p>
+
+             <!-- 24 - padding individual-->
+              <p class="padding-individual">ta todo diferentão</p>
+
+              <!-- 25 - padding com shorthand-->
+               <p class="short">fiz a msm coisa so q com uma so regra</p>
+               <p class="short-2">fiz a msm coisa so q com uma so regra</p>
+
+               <!-- 26 - border box -->
+                <div class="wb">
+                  <p>algum conteudo</p>
+                </div>
+                <div class="cb">
+                  <p>algum conteudo</p>
+                </div>
+
+                <!-- 27 - border -->
+                 <div class="border">Borda</div>
+                 <div class="border-2">Borda 2</div>
+
+                 <!-- 28 - border individual -->
+                  <div class="border-left">borda individual</div>
+                  <div class="border-bottom">mais uma</div>
+
+                  <!-- 29 - border radius -->
+                   <div class="border-radius">uma borda redonda</div>
+                   <div class="border-radius2">sem usar regra "border"</div>
+
+                   <!-- 30 - margin -->
+                    <div class="margin">
+                      <p>eu tenho margem</p>
+                    </div>
+
+                    <div class="margin-top">
+                      <p>tenho margem em cima</p>
+                    </div>
+
+                    <div class="margin-shorthand">
+                      <p>margem com shorthand</p>
+                    </div>
+
+                    <!-- 31- box-model -->
+                    <div class="box">
+                      <p>tenho todos os componentes do box-model</p>
+                    </div>
+
+                    <!-- 33 - alinhamento de texto -->
+                     <p class="right">estou pra direita</p>
+                     <div class="center">
+                      <h2>Centro</h2>
+                      <p>fomos centralizados dentro da DIV</p>
+                     </div>
+
+                     <!-- 34 - text decoration -->
+                      <p class="underline">tenho uma underline</p>
+                      <p class="line-trough">tenho um risco</p>
+                      <a href="#" class="remove">remover a underline</a>
+
+                      <!-- 35 - text transformation-->
+                       <p class="upper">este esta em upper</p>
+                       <p class="lower">ESTE ESTA EM LOWER</p>
+
+                       <!-- 36 - letter spacing -->
+                        <h2 class="letter">letras espaçadas</h2>
+
+                        <!-- 37 - font family-->
+                         <p class="serif">Serif fonte</p>
+                         <p class="sans">Sans Serif fonte</p>
+                         <p class="monospace">Monospace fonte</p>
+                         <p class="cursive">Cursive fonte</p>
+                         <p class="fantasy">Fantasy fonte</p>
+
+                         <!-- 38 - font style-->
+                          <p class="italico">estou em italico</p>
+                          <p class="obliquo">estou em obliquo</p>
+
+                          <!-- 39 - font weight -->
+                           <p class="thin">sou fino</p>
+                           <p class="bold">sou parrudo</p>
+                           <p class="bolder">sou o parrudão</p>
+
+                           <!-- 40 - font size -->
+                            <p class="small">sou pequeno</p>
+                            <p class="big">sou big</p>
+
+                            <!-- 41 - display -->
+                             <div class="inline">a</div>
+                             <div class="inline">b</div>
+                             <div class="inline">c</div>
+                             <span class="block">span em bloco</span>
+
+                             <!-- 42 - escondendo elementos -->
+                              <h1 class="invisivel">Tente me achar</h1>
+
+                              <!-- 43 - static-->
+                               <div class="static">
+                                <span>estou estatico</span>
+                               </div>
+
+                               <!-- 44 - relative -->
+                                <div class="relative">
+                                  <span>eu sou relativo</span>
+                                </div>
+                                
+                                <!-- 45 - absolute -->
+                                 <div class="absolute">
+                                  <span>eu sou absoluto</span>
+                                 </div>
+
+                                 <!-- 46 - relative e absolute -->
+                                  <div class="container">
+                                    <div class="absolute-1"></div>
+                                    <div class="absolute-2"></div>
+                                  </div>
+
+                                  <!-- 47 - fixo -->
+                                   <div class="fixed">
+                                    <span>estou fixo</span>
+                                   </div>
+
+                                   <!-- 48 - z-index -->
+                                    <div class="container">
+                                      <div class="absolue-3"></div>
+                                      <div class="absolue-4"></div>
+                                      <div class="absolue-5"></div>
+                                    </div>
+
+                                  
+                          
+
+
+
+
+
+</body>
+</html>
